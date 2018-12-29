@@ -5,6 +5,13 @@
     --secundario: #8cbc00;
 }
 
+/** Configurações Globais **/
+.imagem-bg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 /** Titulo **/
 .titulo {
     font-family: var(--fuentePrimaria);
@@ -21,4 +28,10 @@
 .navbar {
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
+}
+
+/** Imagem Principal **/
+.imagem-principal {
+    background-image: url(../img/principal.jpg);
+    height: 35rem;
 }
