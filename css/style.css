@@ -12,6 +12,10 @@
     background-size: cover;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 /** Titulo **/
 .titulo {
     font-family: var(--fuentePrimaria);
@@ -34,4 +38,16 @@
 .imagem-principal {
     background-image: url(../img/principal.jpg);
     height: 35rem;
+}
+
+/* Categorias */
+.categorias a {
+    font-family: var(--fuenteSecundaria);
+    font-weight: 400;
+    color: black!important;
+    font-size: 2rem;
+}
+
+.categorias a:hover {
+    text-decoration: none;
 }
