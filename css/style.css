@@ -6,6 +6,10 @@
 }
 
 /** Configurações Globais **/
+.bg-primary {
+    background-color: var(--primario)!important;
+}
+
 .imagem-bg {
     background-repeat: no-repeat;
     background-position: center center;
@@ -50,4 +54,15 @@ h2 {
 
 .categorias a:hover {
     text-decoration: none;
+}
+
+/** Sobre Nós */
+
+.sobre-nos,
+.imagem-sobrenos{
+    min-height: 35rem;
+}
+
+.imagem-sobrenos {
+    background-image: url(../img/nosotros.jpg);
 }
