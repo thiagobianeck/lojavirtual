@@ -66,3 +66,18 @@ h2 {
 .imagem-sobrenos {
     background-image: url(../img/nosotros.jpg);
 }
+
+/** Produtos **/
+
+.info-produto .preco {
+    font-size: 1.8rem;
+}
+
+.info-produto .btn-success {
+    background-color: var(--secundario);
+    border-color: var(--secundario);
+}
+
+.info-produto .btn-success:hover {
+    background-color: #80ab02;
+}
